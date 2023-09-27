@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #f0f0f0;
+            background-color: #0B2447   ;
         }
 
         .container {
-            background-color: #0B2447;
+            background-color: #ffffff;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         h1, h2 {
-            color: #007bff;
+            color: #19376D;
         }
 
         ul {
@@ -43,7 +43,28 @@
             <li>Alta precisión</li>
             <li>Fácil de usar con Arduino y otros microcontroladores</li>
         </ul>
-        
+        <h2>ESPECIFICACIÓN Y CARACTERÍSTICAS</h2>
+        <ul>
+                <li>Tipo: Sensor Ultrasónico</li>
+                    <li> Modelo: HC-SR04</li>
+                        <li>Dimensiones: 45 mm x 20 mm x 15 mm</li>
+                            <li>Voltaje de funcionamiento: + 5V DC</li>
+                                <li>Corriente de alimentación: 15 mA</li>
+                                    <li>Rango de medición: 2 cm a 400 cm (a 4 m  considerar que puede haber poca sensibilidad del dispositivo)</li>
+                                        <li> Frecuencia de trabajo: 40 KHz</li>
+                                            <li> Ángulo de medición efectivo: < 15º</li>
+                                                <li> Ángulo de medición: 30º</li>
+                                                    <li>Precisión: +- 3mm</li>
+                                                        <li>Duración mínima del pulso de disparo (nivel TTL): 10 μs</li>
+        <li> Duración del pulso eco de salida (nivel TTL): 100-25000 μs</li>
+            <li>Tiempo mínimo de espera entre una medida y el inicio de otra 20 ms</li>
+        <li>Peso: 9 g</li>
+        <li>Pines</li>
+        <li>Vcc: 5 DC</li>
+        <li>Trigger: Input, disparo del ultrasonido</li>
+        <li>Echo: Output, repetición del ultrasonido o receptor</li>
+        <li>GND</li>
+        </ul>
         <h2>Cómo funciona</h2>
         <p>El HC-SR04 emite un pulso ultrasónico y luego mide el tiempo que tarda en rebotar en un objeto y regresar al sensor. Utilizando esta información, puedes calcular la distancia al objeto.</p>
         
